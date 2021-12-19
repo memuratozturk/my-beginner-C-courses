@@ -18,8 +18,15 @@ int main(){
 	area= edge * edge;
 	
 	printf("area of the square : %d\n", area);
+	// %d and \n are special characters so we won't see them. %d is a numeric value and \n jump to a lower line.
+	// The variable name comes after the comma.
+	// %d ve \n özel karakterlerdir, bu yüzden onları görmeyeceğiz. %d sayısal bir değerdir ve \n bir alt satıra atlar.
+	// Değişken ismi virgülden sonra gelir.
 	
 	return 0;
-	
+	// return 0; meaning is the end of this code block.
+	// return 0; anlamı bu kod bloğunun sonlandığı anlamına gelir.
+	// if we didn't write return 0; this code will enter an endless loop.
+	// return 0; yazmasaydık kod sonsuz döngüye girecekti.
 }
 
