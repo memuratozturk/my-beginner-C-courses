@@ -67,5 +67,21 @@ register int m,n; // yazmaçlar
    global değişkenleri main'den önce tanımla!
    bazı durumlarda bir blok içindeki değişkenin program boyunca bellekte kalması istenebilir bu gibi durumda static kullanacağız.
    */
+    // emnumun işi sıralayıp grup sırası veriyor.
+    
+    enum takimlar {BJK = 1, FB, GS = 2, TS};
+printf ("BJK = %d\n" , BJK) ;
+printf ("FB = %d\n", FB) ;
+printf ("GS = %d\n" , GS ) ;
+printf ("TS = %d\n" , TS) ;
+    /* çıktısı:
+    
+     BJK = 1
+FB = 2
+GS = 2
+TS = 3
+sıralamaya verilen numaradan başlıyor.
+    
+    */
     
 }
