@@ -51,7 +51,8 @@ printf("\n");
 printf("\t %f * %f = %f\n",z,z,z*z);
 printf("\t %d * %d = %d\n",t,t,t*t);
 
-// geçici depolamanın kullandığı değişken türleri auto ve register'dir
+// geçici depolamanın kullandığı değişken türleri auto ve register'dir geçici depolamada değişken işi bittiğinde silinir; kalıcı depolamada 
+    // değişken program boyunca tutulur.
 auto float x,y; // kullanım örneği
 float i,p; // default auto sınıfında
 register int m,n; // yazmaçlar 
