@@ -80,7 +80,7 @@ printf ("TS = %d\n" , TS) ;
 FB = 2
 GS = 2
 TS = 3
-sıralamaya verilen numaradan başlıyor.
+sıralamaya verilen numaradan başlıyor. eğer hiç numara verilmemiş ise sıfırdan başlar.
     
     */
     
