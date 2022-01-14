@@ -53,8 +53,19 @@ printf("\t %d * %d = %d\n",t,t,t*t);
 
 // geçici depolamanın kullandığı değişken türleri auto ve register'dir geçici depolamada değişken işi bittiğinde silinir; kalıcı depolamada 
     // değişken program boyunca tutulur.
+    // deçici tanımlama: 
 auto float x,y; // kullanım örneği
 float i,p; // default auto sınıfında
 register int m,n; // yazmaçlar 
-
+   /* kalıcı depolama biriminde kullanılan değişken tanımlama:
+   extern
+   static
+   örnek:
+   extern float tcNo;
+   static char adSoyad[20];
+   extern demek global değişken ön tanımlı sayılır.
+   global değişkenleri main'den önce tanımla!
+   bazı durumlarda bir blok içindeki değişkenin program boyunca bellekte kalması istenebilir bu gibi durumda static kullanacağız.
+   */
+    
 }
