@@ -16,6 +16,7 @@ scanf("%d", &final);
 printf("final notunuz : %d", final);
 ort = (vize * 0.4) + (final * 0.6);
 printf("\n ortalamanız %f \n", ort);
+  // gerisini ben ekledim.
 if(ort>80) printf("AA");
 else if (ort>75) printf("AB");
 else if (ort>60) printf("BB");
